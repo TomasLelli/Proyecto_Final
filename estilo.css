@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.blur-in{animation:blur-in 0.9s linear} @keyframes blur-in{0%{filter:blur(50px);opacity:0}100%{filter:blur(0);opacity:1}}
+
+.bodyIndex{
+    overflow-y: scroll;
+}
+
+.bodyMenu{
+        overflow-x: hidden;
+}
+
+.logoHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 106px;
+}
+
+.logoHeader2{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 80px;
+}
+
+html{
+    height: 100%;
+
+}
+
+::placeholder {
+    color: rgb(124, 124, 124);
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+
+body {
+    background: #00d2ff; 
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  
+    background: linear-gradient(to right, #928DAB, #00d2ff); 
+    height: 100%;
+}
+
+.general{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    position: fixed;
+    width: 100%;
+}
+
+
+.contenedorFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px 0px;
+    width: 400px;
+    box-shadow: 0 5px 5px -3px black;
+}
+
+.title{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(58, 10, 61);
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputContainer{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: #ffffff;
+}
+
+.submitBtn{
+    width: 100%;
+    padding: 10px;
+    background-color: #50095b;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    transition: 0.5s linear;
+}
+
+.submitBtn:hover{
+    background-color: #643e6a;
+    transition: 0.5s linear;
+}
+/* Menu */
+
+.campoGeneral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem; 
+    margin-top: -54px;
+}
+
+.campoSubGeneral{
+/*     background-color: aliceblue; */
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+/*     box-shadow: 0 5px 5px -3px black; */
+}
+
+.campoEstado{
+    height: 70px;
+    width: 80%;
+    border-radius: 5px;
+    background-color:#ede9e9;
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+}
+
+.persona{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+}
+
+.logoLetra{
+    margin-right: 10px;
+    background: #50095b;
+    border-radius: 50%;
+    width: 33px;
+    height: 31px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.nombreUsuario{
+    font-size: 20px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    display: flex;
+    flex-direction:row;
+    justify-content:left;
+    margin: 10px 10px;
+    border-radius:6px ;
+}
+
+.textArea{
+    font-size: 20px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 5px 10px;   
+    align-items: center;
+}
+.texto{
+    font-size: 30px;
+    font-family: 'GFS Neohellenic', sans-serif;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 135px;
+}
+
+.botonPublicar{
+    padding: 0.70rem;
+    background-color: #50095b;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    color: aliceblue;
+    transition: 0.4s linear;
+}
+
+.botonPublicar:hover{
+    background-color: rgb(119, 49, 129);
+    transition: 0.4s linear;
+}
