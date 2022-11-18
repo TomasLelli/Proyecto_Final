@@ -29,7 +29,7 @@ function validar(){
                   timer: 1200
                 })
                 setTimeout(function(){
-                  window.location.href = "../menu.html"
+                  window.location.href = "./menu.html"
               }, 1200);
             } else{
                 Swal.fire({
